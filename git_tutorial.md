@@ -3,6 +3,7 @@
 ### git config --global user.name
 ### git config --global user.email
 ### git config
+### git version
 ## Инициализация репозитория
 ### git init
 ### git add <file_name> | .
@@ -16,11 +17,9 @@
 ### git log  | --oneline | --stat | 
 ### git diff
 ### q (выход из git diff)
-## Работа с коммитами
 ## Работа с удаленным репозиторием
 ### git remote add origin <address>
 ### git push -u -f origin main
-## Новая строка
 # Домашнее задание №1
 ## Написать команду, которая автоматически индексирует и коммитит файл
 ### git commit -a -m <commit_name>
