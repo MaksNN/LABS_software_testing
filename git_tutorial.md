@@ -6,8 +6,8 @@
 ### git version
 ## Инициализация репозитория
 ### git init
-### git add <file_name> | .
 ## Первый коммит
+### git add <file_name> | .
 ### git commit -m
 ## Ветки в Git
 ### git branch
