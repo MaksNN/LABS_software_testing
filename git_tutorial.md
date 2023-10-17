@@ -1,25 +1,25 @@
 # Инструкция по работе с Git
 ## Подготовка рабочего места
-### git config --global user.name
-### git config --global user.email
-### git config
-### git version
+### git version (показать версию git)
+### git config (увидеть текущие настройки параметров Git)
+### git config --global user.name (задать имя пользователя)
+### git config --global user.email (задать почту пользователя)
 ## Инициализация репозитория
-### git init
+### git init (инициализировать репозиторий)
 ## Первый коммит
-### git add <file_name> | .
-### git commit -m
+### git add <file_name> | . (подготовить файлы перед коммитом)
+### git commit -m <commit_name> (закоммитить файл)
 ## Ветки в Git
-### git branch
-### git checkout
-### git merge
+### git branch <branch_name> (создать новую ветку c именем <branch_name>, но не переключаться на нее)
+### git checkout <branch_name> (переключиться на ветку с именем <name>)
+### git merge <merge_name> (слить текущую ветку <merge_name> с основной веткой main)
 ## История коммитов и работа с коммитами
-### git log  | --oneline | --stat | 
-### git diff
+### git log  | --oneline | --stat | (просмотреть историю коммитов в общем виде | в одну строку | в упрощенном виде)
+### git diff (детальная проверка не проиндексированных изменений с проиндексированными)
 ### q (выход из git diff)
 ## Работа с удаленным репозиторием
-### git remote add origin <address>
-### git push -u -f origin main
+### git remote add <shortname> <url> (добавить новый удаленный репозиторий и назвать его)
+### git push -u -f <remote-name> <branch-name> (отправить изменения в удалённый репозиторий <remote-name> на ветку <branch-name>)
 #
 # Домашнее задание №1
 ## Написать команду, которая автоматически индексирует и коммитит файл
